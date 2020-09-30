@@ -26,7 +26,7 @@ public class Fraction
 		assert(denom == 0) : "Division par 0 interdite !";
 		denominateur = denom;
 	}
-
+	
 	public double getValue() {return numerateur/denominateur;}
 	
 	public String toString()
